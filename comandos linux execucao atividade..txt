@@ -1,0 +1,50 @@
+ucas@DESKTOP-96O85D2:~/modulo1/python$ ll
+total 8
+drwxr-xr-x 2 ucas ucas 4096 May  7 13:32 ./
+drwxr-xr-x 4 ucas ucas 4096 May  7 12:23 ../
+ucas@DESKTOP-96O85D2:~/modulo1/python$ nano calculadora.py
+ucas@DESKTOP-96O85D2:~/modulo1/python$ ll
+total 12
+drwxr-xr-x 2 ucas ucas 4096 May  7 13:33 ./
+drwxr-xr-x 4 ucas ucas 4096 May  7 12:23 ../
+-rw-r--r-- 1 ucas ucas 1115 May  7 13:33 calculadora.py
+ucas@DESKTOP-96O85D2:~/modulo1/python$ chmod +x calculadora.py
+ucas@DESKTOP-96O85D2:~/modulo1/python$ ll
+total 12
+drwxr-xr-x 2 ucas ucas 4096 May  7 13:33 ./
+drwxr-xr-x 4 ucas ucas 4096 May  7 12:23 ../
+-rwxr-xr-x 1 ucas ucas 1115 May  7 13:33 calculadora.py*
+ucas@DESKTOP-96O85D2:~/modulo1/python$ chmod 244 calculadora.py
+ucas@DESKTOP-96O85D2:~/modulo1/python$ ll
+total 12
+drwxr-xr-x 2 ucas ucas 4096 May  7 13:33 ./
+drwxr-xr-x 4 ucas ucas 4096 May  7 12:23 ../
+--w-r--r-- 1 ucas ucas 1115 May  7 13:33 calculadora.py
+ucas@DESKTOP-96O85D2:~/modulo1/python$ chmod +x calculadora.py
+ucas@DESKTOP-96O85D2:~/modulo1/python$ ll
+total 12
+drwxr-xr-x 2 ucas ucas 4096 May  7 13:33 ./
+drwxr-xr-x 4 ucas ucas 4096 May  7 12:23 ../
+--wxr-xr-x 1 ucas ucas 1115 May  7 13:33 calculadora.py*
+ucas@DESKTOP-96O85D2:~/modulo1/python$ nano calculadora.sh
+ucas@DESKTOP-96O85D2:~/modulo1/python$ chmod 244 calculadora.sh
+ucas@DESKTOP-96O85D2:~/modulo1/python$ chmod +x calculadora.sh
+ucas@DESKTOP-96O85D2:~/modulo1/python$ ll
+total 16
+drwxr-xr-x 2 ucas ucas 4096 May  7 13:39 ./
+drwxr-xr-x 4 ucas ucas 4096 May  7 12:23 ../
+--wxr-xr-x 1 ucas ucas 1115 May  7 13:33 calculadora.py*
+--wxr-xr-x 1 ucas ucas  108 May  7 13:39 calculadora.sh*
+ucas@DESKTOP-96O85D2:~/modulo1/python$ ./calculadora.sh
+/bin/bash: ./calculadora.sh: Permission denied
+ucas@DESKTOP-96O85D2:~/modulo1/python$ sudo ./calculadora.sh
+[sudo] password for ucas:
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:3 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1066 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [162 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1061 kB]
+Get:8 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [376 kB]

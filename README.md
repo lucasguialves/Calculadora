@@ -1,13 +1,39 @@
 # Calculadora
 Meu primeiro codigo em python, estudo colocando codigo para rodar no linux.
 
+## Como Executar um Arquivo .sh no Linux
+
+- 1. Acesse o Diretório do Arquivo
+Abra o terminal e navegue até o diretório onde o arquivo .sh está localizado.
+
+- 2. Conceda Permissão de Execução ao Arquivo
+Antes de executar o script, é necessário conceder permissão de execução. Isso pode ser feito com o comando:
+
+chmod +x nome_do_arquivo.sh
+
+isso permite que o sistema reconheça o arquivo como executável. 
+
+- 3. Execute o Script
+Agora, você pode executar o script de duas maneiras:
+
+Executar Diretamente
+./nome_do_arquivo.sh
+Ou
+./indica que o script está no diretório atual. 
+
+- 4. Executar com Privilégios de Superusuário (se necessário)
+Se o script requerer permissões elevadas (por exemplo, para instalar software), você pode executá-lo com o sudo:
+
+sudo ./nome_do_arquivo.sh
+O sistema solicitará sua senha para confirmar a execução com privilégios de superusuário.
+
 ## Documentação do Código da Calculadora
 
-Descrição Geral
+- Descrição Geral
 Este programa é uma calculadora interativa que permite ao usuário realizar operações aritméticas básicas (soma, subtração, multiplicação e divisão) repetidamente até que escolha encerrar o programa. Utiliza um loop while para manter a interação contínua e inclui tratamento de erros para entradas inválidas.
 Academia Hopper
 
-Estrutura do Código
+- Estrutura do Código
 Exibição do Menu de Operações
 
 O programa apresenta um menu com as opções de operações disponíveis:
@@ -24,7 +50,7 @@ print("4 Divisão")
 print("5 Sair")
 O usuário é solicitado a escolher uma operação digitando o número correspondente.
 
-Entrada da Operação Desejada
+- Entrada da Operação Desejada
 
 A operação escolhida pelo usuário é capturada com a função input():
 
@@ -67,7 +93,7 @@ except ValueError:
     continue
 Caso o usuário insira um valor não numérico, o programa captura a exceção ValueError e solicita novamente a entrada.
 
-Execução da Operação Selecionada
+- Execução da Operação Selecionada
 
 Dependendo da escolha do usuário, o programa realiza a operação correspondente:
 

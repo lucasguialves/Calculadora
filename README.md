@@ -3,17 +3,17 @@ Meu primeiro codigo em python, estudo colocando codigo para rodar no linux.
 
 ## Como Executar um Arquivo .sh no Linux
 
-- 1. Acesse o Diretório do Arquivo
+-  Acesse o Diretório do Arquivo
 Abra o terminal e navegue até o diretório onde o arquivo .sh está localizado.
 
-- 2. Conceda Permissão de Execução ao Arquivo
+-  Conceda Permissão de Execução ao Arquivo
 Antes de executar o script, é necessário conceder permissão de execução. Isso pode ser feito com o comando:
 
 chmod +x nome_do_arquivo.sh
 
 isso permite que o sistema reconheça o arquivo como executável. 
 
-- 3. Execute o Script
+-  Execute o Script
 Agora, você pode executar o script de duas maneiras:
 
 Executar Diretamente
@@ -21,7 +21,7 @@ Executar Diretamente
 Ou
 ./indica que o script está no diretório atual. 
 
-- 4. Executar com Privilégios de Superusuário (se necessário)
+-  Executar com Privilégios de Superusuário (se necessário)
 Se o script requerer permissões elevadas (por exemplo, para instalar software), você pode executá-lo com o sudo:
 
 sudo ./nome_do_arquivo.sh
